@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5512669020981AB200C092EF /* StepDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5512668F20981AB200C092EF /* StepDetailsViewController.swift */; };
+		551266952098CCD100C092EF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551266942098CCD100C092EF /* Constants.swift */; };
+		55F5C848209402E2008F69EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F5C847209402E2008F69EB /* AppDelegate.swift */; };
+		55F5C84A209402E2008F69EB /* StepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F5C849209402E2008F69EB /* StepViewController.swift */; };
+		55F5C84D209402E2008F69EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55F5C84B209402E2008F69EB /* Main.storyboard */; };
+		55F5C84F209402EC008F69EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55F5C84E209402EC008F69EB /* Assets.xcassets */; };
+		55F5C852209402EC008F69EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55F5C850209402EC008F69EB /* LaunchScreen.storyboard */; };
+		55F5C85B2094FB47008F69EB /* StepModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F5C85A2094FB47008F69EB /* StepModel.swift */; };
+		55F5C85D209510F2008F69EB /* StepViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F5C85C209510F2008F69EB /* StepViewModel.swift */; };
+		55F5C86020951FF8008F69EB /* Home_StepTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F5C85F20951FF8008F69EB /* Home_StepTableViewCell.swift */; };
+		55F5C8652096B058008F69EB /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F5C8642096B058008F69EB /* ShadowView.swift */; };
+		55F5C8772096DC75008F69EB /* LineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F5C8762096DC75008F69EB /* LineChart.swift */; };
+		55F5C8792096E4D9008F69EB /* ChartFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F5C8782096E4D9008F69EB /* ChartFormatter.swift */; };
+		BEC323169D622D7A6CE0501D /* Pods_UnderArmourStepTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A91C81CD3437E678CD8C9195 /* Pods_UnderArmourStepTracker.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		55F5C86D2096D84C008F69EB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		09D49FBDC6C3482ACE5FD7C0 /* Pods-UnderArmourStepTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnderArmourStepTracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UnderArmourStepTracker/Pods-UnderArmourStepTracker.debug.xcconfig"; sourceTree = "<group>"; };
+		5512668F20981AB200C092EF /* StepDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepDetailsViewController.swift; sourceTree = "<group>"; };
+		551266942098CCD100C092EF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		55F5C844209402E2008F69EB /* UnderArmourStepTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnderArmourStepTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55F5C847209402E2008F69EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55F5C849209402E2008F69EB /* StepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepViewController.swift; sourceTree = "<group>"; };
+		55F5C84C209402E2008F69EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55F5C84E209402EC008F69EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55F5C851209402EC008F69EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55F5C853209402EC008F69EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55F5C85A2094FB47008F69EB /* StepModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepModel.swift; sourceTree = "<group>"; };
+		55F5C85C209510F2008F69EB /* StepViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepViewModel.swift; sourceTree = "<group>"; };
+		55F5C85F20951FF8008F69EB /* Home_StepTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home_StepTableViewCell.swift; sourceTree = "<group>"; };
+		55F5C8642096B058008F69EB /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		55F5C8762096DC75008F69EB /* LineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChart.swift; sourceTree = "<group>"; };
+		55F5C8782096E4D9008F69EB /* ChartFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartFormatter.swift; sourceTree = "<group>"; };
+		A91C81CD3437E678CD8C9195 /* Pods_UnderArmourStepTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnderArmourStepTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4E70F3C6F58AF9ADA1CC5A7 /* Pods-UnderArmourStepTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnderArmourStepTracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-UnderArmourStepTracker/Pods-UnderArmourStepTracker.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55F5C841209402E2008F69EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC323169D622D7A6CE0501D /* Pods_UnderArmourStepTracker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FF100EB8C93B01A659D4078 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A91C81CD3437E678CD8C9195 /* Pods_UnderArmourStepTracker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5512668E20981A9400C092EF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				55F5C849209402E2008F69EB /* StepViewController.swift */,
+				5512668F20981AB200C092EF /* StepDetailsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		551266932098CCC300C092EF /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				551266942098CCD100C092EF /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		55F5C83B209402E2008F69EB = {
+			isa = PBXGroup;
+			children = (
+				55F5C846209402E2008F69EB /* UnderArmourStepTracker */,
+				55F5C845209402E2008F69EB /* Products */,
+				E080C77786E0EF4658BB7275 /* Pods */,
+				2FF100EB8C93B01A659D4078 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		55F5C845209402E2008F69EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55F5C844209402E2008F69EB /* UnderArmourStepTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55F5C846209402E2008F69EB /* UnderArmourStepTracker */ = {
+			isa = PBXGroup;
+			children = (
+				551266932098CCC300C092EF /* Constants */,
+				5512668E20981A9400C092EF /* ViewControllers */,
+				55F5C8712096DB9F008F69EB /* Charts */,
+				55F5C8612096B014008F69EB /* Style */,
+				55F5C85E20951FC1008F69EB /* TableViewCell */,
+				55F5C8592094FB36008F69EB /* Model */,
+				55F5C847209402E2008F69EB /* AppDelegate.swift */,
+				55F5C84B209402E2008F69EB /* Main.storyboard */,
+				55F5C84E209402EC008F69EB /* Assets.xcassets */,
+				55F5C850209402EC008F69EB /* LaunchScreen.storyboard */,
+				55F5C853209402EC008F69EB /* Info.plist */,
+			);
+			path = UnderArmourStepTracker;
+			sourceTree = "<group>";
+		};
+		55F5C8592094FB36008F69EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				55F5C85A2094FB47008F69EB /* StepModel.swift */,
+				55F5C85C209510F2008F69EB /* StepViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		55F5C85E20951FC1008F69EB /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				55F5C85F20951FF8008F69EB /* Home_StepTableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		55F5C8612096B014008F69EB /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				55F5C8642096B058008F69EB /* ShadowView.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		55F5C8712096DB9F008F69EB /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				55F5C8762096DC75008F69EB /* LineChart.swift */,
+				55F5C8782096E4D9008F69EB /* ChartFormatter.swift */,
+			);
+			path = Charts;
+			sourceTree = "<group>";
+		};
+		E080C77786E0EF4658BB7275 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09D49FBDC6C3482ACE5FD7C0 /* Pods-UnderArmourStepTracker.debug.xcconfig */,
+				C4E70F3C6F58AF9ADA1CC5A7 /* Pods-UnderArmourStepTracker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55F5C843209402E2008F69EB /* UnderArmourStepTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55F5C856209402EC008F69EB /* Build configuration list for PBXNativeTarget "UnderArmourStepTracker" */;
+			buildPhases = (
+				DBFA0FE87B819240312E85C0 /* [CP] Check Pods Manifest.lock */,
+				55F5C840209402E2008F69EB /* Sources */,
+				55F5C841209402E2008F69EB /* Frameworks */,
+				55F5C842209402E2008F69EB /* Resources */,
+				58E2A1B0CDB5D912BC87F2BC /* [CP] Embed Pods Frameworks */,
+				55F5C86D2096D84C008F69EB /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnderArmourStepTracker;
+			productName = UnderArmourStepTracker;
+			productReference = 55F5C844209402E2008F69EB /* UnderArmourStepTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55F5C83C209402E2008F69EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Pranav Bhandari";
+				TargetAttributes = {
+					55F5C843209402E2008F69EB = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 55F5C83F209402E2008F69EB /* Build configuration list for PBXProject "UnderArmourStepTracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55F5C83B209402E2008F69EB;
+			productRefGroup = 55F5C845209402E2008F69EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55F5C843209402E2008F69EB /* UnderArmourStepTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55F5C842209402E2008F69EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F5C852209402EC008F69EB /* LaunchScreen.storyboard in Resources */,
+				55F5C84F209402EC008F69EB /* Assets.xcassets in Resources */,
+				55F5C84D209402E2008F69EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		58E2A1B0CDB5D912BC87F2BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-UnderArmourStepTracker/Pods-UnderArmourStepTracker-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UnderArmourStepTracker/Pods-UnderArmourStepTracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBFA0FE87B819240312E85C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UnderArmourStepTracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55F5C840209402E2008F69EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F5C8652096B058008F69EB /* ShadowView.swift in Sources */,
+				55F5C84A209402E2008F69EB /* StepViewController.swift in Sources */,
+				55F5C85B2094FB47008F69EB /* StepModel.swift in Sources */,
+				55F5C85D209510F2008F69EB /* StepViewModel.swift in Sources */,
+				55F5C86020951FF8008F69EB /* Home_StepTableViewCell.swift in Sources */,
+				551266952098CCD100C092EF /* Constants.swift in Sources */,
+				55F5C8792096E4D9008F69EB /* ChartFormatter.swift in Sources */,
+				5512669020981AB200C092EF /* StepDetailsViewController.swift in Sources */,
+				55F5C8772096DC75008F69EB /* LineChart.swift in Sources */,
+				55F5C848209402E2008F69EB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		55F5C84B209402E2008F69EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55F5C84C209402E2008F69EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55F5C850209402EC008F69EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55F5C851209402EC008F69EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55F5C854209402EC008F69EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55F5C855209402EC008F69EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55F5C857209402EC008F69EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09D49FBDC6C3482ACE5FD7C0 /* Pods-UnderArmourStepTracker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73Y8265G8H;
+				INFOPLIST_FILE = UnderArmourStepTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Pranav.UnderArmourStepTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55F5C858209402EC008F69EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4E70F3C6F58AF9ADA1CC5A7 /* Pods-UnderArmourStepTracker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73Y8265G8H;
+				INFOPLIST_FILE = UnderArmourStepTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Pranav.UnderArmourStepTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55F5C83F209402E2008F69EB /* Build configuration list for PBXProject "UnderArmourStepTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55F5C854209402EC008F69EB /* Debug */,
+				55F5C855209402EC008F69EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55F5C856209402EC008F69EB /* Build configuration list for PBXNativeTarget "UnderArmourStepTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55F5C857209402EC008F69EB /* Debug */,
+				55F5C858209402EC008F69EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55F5C83C209402E2008F69EB /* Project object */;
+}
